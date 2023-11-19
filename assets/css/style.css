@@ -647,7 +647,8 @@ form button {
     .goals,
     .events,
     .about-section .container,
-    .volunteers {
+    .volunteers,
+    .contatct-section .container {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -661,5 +662,9 @@ form button {
 
     .event .content {
         min-height: 25%;
+    }
+
+    .informations {
+        margin-top: 2rem;
     }
 }
