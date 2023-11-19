@@ -34,7 +34,7 @@ textarea {
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     border: none;
-    border-radius: .6rem;
+    border-radius: .5rem;
     cursor: pointer;
     transition: all 1s ease;
     display: flex;
@@ -44,7 +44,7 @@ textarea {
     text-decoration: none;
 }
 
-.btn-primary:hover~ {
+.btn-primary:hover {
     transform: translateX(0.5rem);
 }
 
